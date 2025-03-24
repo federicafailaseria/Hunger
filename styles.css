@@ -1,0 +1,105 @@
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #6a1b9a;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+.main-container {
+    display: flex;
+    padding: 20px;
+}
+
+
+.sidebar {
+    background-color: #333;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.sidebar h2 {
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+.sidebar ol {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+.sidebar ol li {
+    margin-bottom: 10px;
+}
+
+.sidebar ol li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.sidebar ol li a:hover {
+    color: #6a1b9a;
+}
+
+.content {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+
+    .card {
+        background-color: #333;
+        width: 25%; 
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #6a1b9a;
+}
+
+p {
+    color: #ccc;
+    font-size: 0.9em;
+}
